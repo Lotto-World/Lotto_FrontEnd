@@ -1,5 +1,3 @@
-// .eslintrc.js
-
 module.exports = {
   root: true,
   env: {
@@ -18,6 +16,7 @@ module.exports = {
     },
     ecmaVersion: 6,
     sourceType: 'module',
+    parser: '@typescript-eslint/parser'
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
